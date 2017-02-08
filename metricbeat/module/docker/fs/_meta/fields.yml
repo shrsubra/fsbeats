@@ -1,0 +1,21 @@
+- name: fs
+  type: group
+  description: >
+    fs
+  fields:
+    - name: total
+      type: long
+      description: >
+        Total root disk space of this container.
+    - name: used.bytes
+      type: long
+      description: >
+        Total root disk space used by this container.
+    - name: free
+      type: long
+      description: >
+        Total root disk space free in this container.
+    - name: used.pct
+      type: scaled_float
+      description: >
+        Total root disk usage percent in this container.
