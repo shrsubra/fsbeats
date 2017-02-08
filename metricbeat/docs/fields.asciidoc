@@ -699,6 +699,45 @@ Number of reads and writes combined.
 
 
 [float]
+== fs Fields
+
+fs
+
+
+
+[float]
+=== docker.fs.total
+
+type: long
+
+Total root disk space of this container.
+
+
+[float]
+=== docker.fs.used.bytes
+
+type: long
+
+Total root disk space used by this container.
+
+
+[float]
+=== docker.fs.free
+
+type: long
+
+Total root disk space free in this container.
+
+
+[float]
+=== docker.fs.used.pct
+
+type: scaled_float
+
+Total root disk usage percent in this container.
+
+
+[float]
 == info Fields
 
 experimental[]
