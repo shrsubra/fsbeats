@@ -3817,8 +3817,7 @@
   },
   "order": 0,
   "settings": {
-    "index.refresh_interval": "5s",
-    "index.mapping.total_fields.limit": "2000"
+    "index.refresh_interval": "5s"
   },
   "template": "metricbeat-*"
 }
