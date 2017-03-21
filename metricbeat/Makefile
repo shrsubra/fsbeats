@@ -15,6 +15,8 @@ CGO=true
 # Metricbeat can only be cross-compiled on platforms not requiring CGO.
 GOX_OS=solaris netbsd linux windows
 GOX_FLAGS='-arch=amd64 386 arm ppc64 ppc64le'
+
+
 include ${ES_BEATS}/libbeat/scripts/Makefile
 
 # Collects all module dashboards
